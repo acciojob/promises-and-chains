@@ -7,7 +7,7 @@ Create a function that returns a promise which resolves with an object after 4 s
 1. Create a simple form with 2 inputs -
    - `age`: id of `age` with type `number`
    - `name`: id of `name` with type `text`
-2. Add a `button` with the id of `btn` and type of `submit`.
+2. Add a `button` with the id of `btn` and type of `button`.
 3. Validation should be:
    - inputs cannot be empty.
 4. On successful form submission, resolve a promise that resolves if the age of the person is above 18 after 4 seconds and shows an alert with the text `Welcome, <name>. You can vote.` and rejects if the age is below 18 and shows an alert that says `Oh sorry <name>. You aren't old enough.`
